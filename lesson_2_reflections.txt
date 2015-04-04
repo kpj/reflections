@@ -15,4 +15,8 @@ then go back and split them up into logical commits by adding related changes
 to the stage and commit them piece-by-piece. 
 As in any revision control system, it’s important to create atomic commits so 
 that it’s easy to track down bugs and revert changes with 
-minimal impact on the rest of the project
+minimal impact on the rest of the project.
+
+How can you use the staging area to make sure you have one commit per logical change?
+-> By adding elements to the staging area each time a modification that belongs to the
+"unit logical change" is made.
