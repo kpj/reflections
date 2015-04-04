@@ -34,3 +34,9 @@ the branches could become useful.
 How do the diagrams help you visualize the branch structure?
 -> You can see the parents of each commit and you can keep track of the commits
 and you can identify unreachable commits.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+-> The result of merging two branches together is one branch that contains commits from 
+both branches, in a consistent manner, such that the overall code's functionality is not affected, 
+but contains the (compatible) features introduced by both.
+We represent the diagram in such a way that we can see the parents of all the comits that we have made.
