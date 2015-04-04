@@ -1,0 +1,18 @@
+What happens when you initialize a repository? Why do you need to do it?
+-> Initializing the repository means transforming the current directory into a Git repository. 
+This adds a .git folder to the current directory and makes it possible to start recording revisions of the project 
+(the .git folder contains all of the necessary metadata for the repo).
+
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+-> The staging area can be thought of as a buffer 
+between the working directory and the project history.
+Instead of committing all of the changes you've made since the last commit, 
+the stage lets you group related changes into highly focused snapshots before actually 
+committing it to the project history. 
+This means you can make all sorts of edits to unrelated files, 
+then go back and split them up into logical commits by adding related changes 
+to the stage and commit them piece-by-piece. 
+As in any revision control system, it’s important to create atomic commits so 
+that it’s easy to track down bugs and revert changes with 
+minimal impact on the rest of the project
