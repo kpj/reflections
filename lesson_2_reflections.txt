@@ -40,3 +40,9 @@ What is the result of merging two branches together? Why do we represent it in t
 both branches, in a consistent manner, such that the overall code's functionality is not affected, 
 but contains the (compatible) features introduced by both.
 We represent the diagram in such a way that we can see the parents of all the comits that we have made.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+-> Git identifies and merges quickly commits that don't have any merge conflicts.
+When conflicts are found, it also highlights the part of the code where conflicts arrise,
+making it easy to identify and solve them. None of those features would be available
+if we were to manually merge different versions of code.
