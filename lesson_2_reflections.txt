@@ -20,3 +20,13 @@ minimal impact on the rest of the project.
 How can you use the staging area to make sure you have one commit per logical change?
 -> By adding elements to the staging area each time a modification that belongs to the
 "unit logical change" is made.
+
+What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+-> Branches would be helpful in keeping the history organized when one wants to experiment
+by adding some new features to the program, but does not want to change the whole program yet. 
+For example, if we have a game and we want to try creating a easier version, we could
+create a branch where we modify the code such that the game becomes easier, and if we decide
+to have a look at the original version, we can just switch branches. We can also decide to keep
+both versions and maybe extend the game to include an easy and a hard mode and here merging
+the branches could become useful.
