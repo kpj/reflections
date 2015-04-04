@@ -30,3 +30,7 @@ create a branch where we modify the code such that the game becomes easier, and 
 to have a look at the original version, we can just switch branches. We can also decide to keep
 both versions and maybe extend the game to include an easy and a hard mode and here merging
 the branches could become useful.
+
+How do the diagrams help you visualize the branch structure?
+-> You can see the parents of each commit and you can keep track of the commits
+and you can identify unreachable commits.
